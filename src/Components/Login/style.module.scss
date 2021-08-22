@@ -1,0 +1,111 @@
+.MainContainer {
+  display: flex;
+  bottom: auto;
+}
+
+.Login {
+  width: 50%;
+  height: auto;
+  padding-top: 8rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  
+
+  footer {
+    margin-top: auto;
+    margin-bottom: 2rem;
+    color: #C6CAD6;
+  }
+}
+
+.LoginLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 26.25rem;
+
+  img {
+    width: 6.7rem;
+    height: 5.25rem;
+    padding-bottom: 1rem;
+  }
+
+  h2 {
+    font-weight: 500;
+    padding-bottom: 1rem;
+  }
+
+  
+  a {
+    color: var(--Secundary);
+    text-decoration: none;
+
+   
+
+    &:hover {
+      filter: brightness(0.9);
+    }
+  }
+
+  button {
+    border: none;
+    background:var(--Primary);
+    color:var(--Secundary);
+
+    width: 100%;
+    height: 2.75rem;
+    margin: 1rem;
+
+    &:hover {
+      filter: brightness(0.9);
+    }
+  }
+  span{
+  color: var(--Primary);
+  font:800 bold;
+  
+  
+  }
+  
+  
+  
+}
+.Formlogin {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 26.25rem;
+
+  input {
+    width: 100%;
+    height: 2.75rem;
+    padding-bottom: 1rem 0;
+    border: 1px solid #CED4DE;
+    border-radius: 10px;
+    text-transform: uppercase;
+   
+  }
+}
+
+
+
+.RightInfo{
+  width: 50%;
+  background-image:linear-gradient(#13CFB9, #0EA4C2);  
+  padding: 8rem 5rem;
+  color: #fff;
+  border-radius: 64px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  img {
+    width: 26.25rem;
+    height: 19rem;
+  }
+}
+
