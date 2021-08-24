@@ -1,6 +1,5 @@
-import style from './style.module.scss';
+import style from "./style.module.scss";
 export function Header() {
-
   return (
     <header className={style.Header}>
       <h1>Bancos</h1>
@@ -10,10 +9,12 @@ export function Header() {
         <img src="/img/Bell.svg" alt="Sino" />
 
         <div className={style.InforUser}>
-          <button> Olá,<span>Beleza Rara </span> 
+          <button>
+            {" "}
+            Olá,<span>Beleza Rara </span>
             <img src="/img/setaBaixo.svg" alt="Seta" />
           </button>
-          
+
           <div className={style.InforContent}>
             <a href="/">Link</a>
             <a href="/">Link</a>
@@ -21,5 +22,5 @@ export function Header() {
         </div>
       </div>
     </header>
-  )
+  );
 }

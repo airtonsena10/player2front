@@ -1,16 +1,18 @@
 import { useEffect, useState } from "react";
 import { BrowserRouter, Redirect, Route } from "react-router-dom";
+import { InforBanks } from "./Components/InforBanks";
 import { BankContext } from "./contexts/";
 import { Banks } from "./Components/banks";
 import { Login } from "./Components/Login";
 import { api } from "./api";
-import { InforBanks } from "./Components/InforBanks";
+
 
 import "./Styles/GlobalStyles.scss";
-import { Autenticar } from "./auth";
+
 
 function App() {
   const [bankData, setBankData] = useState([]);
+  const Autenticar = () => true;
 
   const PrivateRoute = ({ component: Component, ...rest }) => (
     <Route
