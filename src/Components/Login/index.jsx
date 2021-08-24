@@ -30,14 +30,12 @@ export function Login() {
 
       <div className={style.RightInfo}>
         <img src="/img/infoMainPage.svg" alt="img info" />
-        <div className={style.TextRight}>
-          <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-            sapien mi, commodo ut pellentesque non, fermentum at risus. Sed eu
-            augue sit amet leo scelerisque cursus vitae ac dolor
-          </p>
-        </div>
+        <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+          sapien mi, commodo ut pellentesque non, fermentum at risus. Sed eu
+          augue sit amet leo scelerisque cursus vitae ac dolor
+        </p>
       </div>
     </div>
   );
