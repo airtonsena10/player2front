@@ -1,31 +1,34 @@
 .MainContainer {
   display: flex;
-  bottom: auto;
-}
+  height: 100vh;
+  max-width: 100vw;
+
 
 .Login {
-  width: 50%;
-  height: auto;
-  padding-top: 8rem;
+  flex: 7;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  
 
   footer {
-    margin-top: auto;
-    margin-bottom: 2rem;
-    color: #C6CAD6;
+    position: absolute;
+      bottom: 0;
+      color: #c6cad6;
+      font-size: 0.87rem;
+      line-height: 18px;
+      text-align: center;
+      padding: 5px;
   }
 }
 
 .LoginLeft {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 26.25rem;
+      flex-direction: column;
+      align-items: stretch;
+      width: 100%;
+      max-width: 26.25rem;
 
   img {
     width: 6.7rem;
@@ -38,12 +41,9 @@
     padding-bottom: 1rem;
   }
 
-  
   a {
     color: var(--Secundary);
     text-decoration: none;
-
-   
 
     &:hover {
       filter: brightness(0.9);
@@ -52,26 +52,24 @@
 
   button {
     border: none;
-    background:var(--Primary);
-    color:var(--Secundary);
+    align-items: center;
+    justify-content: center;
+    background: var(--Primary);
+    color: var(--Secundary);
 
     width: 100%;
     height: 2.75rem;
-    margin: 1rem;
+    margin-top:10px;
+
 
     &:hover {
-      filter: brightness(0.9);
+      filter: brightness(0.8);
     }
   }
-  span{
-  color: var(--Primary);
-  font:800 bold;
-  
-  
+  span {
+    color: var(--Primary);
+    font: 800 bold;
   }
-  
-  
-  
 }
 .Formlogin {
   display: flex;
@@ -83,18 +81,15 @@
     width: 100%;
     height: 2.75rem;
     padding-bottom: 1rem 0;
-    border: 1px solid #CED4DE;
+    border: 1px solid #ced4de;
     border-radius: 10px;
     text-transform: uppercase;
-   
   }
 }
 
-
-
-.RightInfo{
-  width: 50%;
-  background-image:linear-gradient(#13CFB9, #0EA4C2);  
+.RightInfo {
+  width:60%;
+  background-image: linear-gradient(#13cfb9, #0ea4c2);
   padding: 7.7rem 5rem;
   color: #fff;
   border-radius: 64px 0 0 0;
@@ -109,3 +104,18 @@
   }
 }
 
+@media screen and (max-width: 800px){
+
+.RightInfo {
+display:none;
+flex: 6;
+height: 100%;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 126px 115px 153px;
+max-width: 50%;
+
+}
+}
+}
