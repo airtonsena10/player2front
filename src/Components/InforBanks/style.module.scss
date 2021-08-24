@@ -1,0 +1,29 @@
+.InfoPage {
+  background:#E5E5E5;
+  padding-left: 3rem;
+}
+
+.InfoContent {
+  background: var(--Secundary) ;
+
+  margin: 2rem;
+  padding: 2rem;
+}
+
+.BankDetalhe {
+  margin: 1rem 0;
+  display: flex;
+  
+  div {
+    margin-right: 3rem;
+
+    &:nth-child(2) {
+      margin-left: 15rem;
+    }
+  }
+}
+
+.Messages {
+  margin: 5rem 0;
+  word-spacing: 1px;
+}

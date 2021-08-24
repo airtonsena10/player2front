@@ -6,7 +6,7 @@ export function CartBank(props) {
   return (
     <div className={style.CartContainer}>
       <div className={style.CartTop}>
-        <a href="/">Disparando agora...
+        <a href="InforBanks">Disparando agora...
           <img src="/img/Arrows.svg" alt="Arrow" />
         </a>
         <img src="/img/btnUsers.svg" alt="Users icon" />
