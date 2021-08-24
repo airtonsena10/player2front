@@ -7,9 +7,9 @@ Desafio front-end Player 2 </h1>
 
 
 
-## Acesse a demo:
+## Acesse :
 
-[Demo](coloca link)
+[Demo](https://player2front.vercel.app/)
 
 
 
