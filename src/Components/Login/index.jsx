@@ -15,7 +15,7 @@ export function Login() {
           <input type="text" name="Password" placeholder="Digite sua senha" />
         </form>
         <button type="submit">
-          <a href="/">Entra</a>
+          <a href="/banks">Entra</a>
         </button>
         <p>
           Não tem uma conta? <span> Cadastre-se</span>

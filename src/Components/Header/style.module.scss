@@ -1,0 +1,78 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+
+  padding: 1rem;
+
+  border-bottom: 1px solid #CED4DE;
+
+  h1 {
+    color: #B3B9C9;
+  }
+}
+
+.NavbarTop {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 30%;
+
+  .CriarBanco {
+    background: var(--Primary);
+    color: var(--Secundary);
+    border: none;
+
+    width: 8.5rem;
+    height: 2.5rem;
+    font-weight: 700;
+  }
+
+  img {
+    width: 1rem;
+    height: 1rem;
+  }
+}
+
+.InforUser {
+
+  button {
+    background: #E5E5E5;
+    border: none;
+
+    width: 8.5rem;
+    height: 2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    span {
+      color: var(--Primary);
+    }
+  }
+
+  &:hover {
+    .InforContent{
+      display: block;
+    }
+  }
+}
+
+.InforContent {
+  display: none;
+  position: absolute;
+  z-index: 1;
+
+  a {
+    display: block;
+    text-align: left;
+    float: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .NavbarTop {
+    display: none;
+  }
+}

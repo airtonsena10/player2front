@@ -1,0 +1,44 @@
+.Nav {
+  width: 2.75rem;
+  height: 100%;
+  background-image:linear-gradient(#13CFB9, #0EA4C2);  
+  position: fixed;
+  padding-top: 1.5rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  img {
+    width: 1.5rem;
+    padding: 1rem 0;
+  }
+
+  a:hover {
+    filter: brightness(0.8);
+  }
+}
+
+.Links {
+  margin: 5rem 0;
+  margin-bottom: 15rem;
+  border-top: 1px solid var(--Primary);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 800px) {
+  .Nav {
+    height: auto;
+  }
+
+  .Links{
+    display: none;
+  }
+
+  .Nav :last-child {
+    display: none;
+  }
+}

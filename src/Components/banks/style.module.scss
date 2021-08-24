@@ -1,0 +1,57 @@
+.Bank {
+  background: #E5E5E5;
+}
+
+.BankContent {
+  padding-left: 3rem;
+  border-radius: 8px;
+    text-transform: uppercase;
+}
+
+.ListaBancos {
+  color: #474F63;
+  padding: 2rem 4rem;
+}
+
+.BankTitle {
+  display: flex;
+  width: 100%;
+  padding: 0 2rem;
+
+  h3 {
+    padding: 1rem;
+    color: #B3B9C9;
+  }
+}
+
+.BankSearch {
+  width: 240px;
+  height: 44px;
+  margin-left: auto;
+  border: 1px solid #CED4DE;
+  border-radius: 10px;
+  background: var(--Secundary);
+
+  display: flex;
+  justify-content: space-around;
+
+  input {
+    border: none;
+
+    &:last-child {
+      width: 1rem;
+    }
+  }
+}
+
+.CartBank { 
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+@media (max-width: 768px) {
+  .BankTitle {
+    display: block;
+  }
+}
